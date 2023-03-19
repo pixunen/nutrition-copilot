@@ -4,8 +4,7 @@ async function handleClick() {
 }
 export default async function Home() {
   const data = await handleClick();
-  const test = data.json();
-  console.log(test)
+  
 
   return (
     <>
