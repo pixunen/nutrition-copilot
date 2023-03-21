@@ -10,7 +10,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <h1>This is a chatGPT Demo</h1>
+        {children}
+      </body>
     </html>
   )
 }
